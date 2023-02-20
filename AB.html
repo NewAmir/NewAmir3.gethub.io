@@ -1,0 +1,101 @@
+<html>
+<head>
+<title> Keyboard </title>
+<style>
+body{
+background:gray;
+}
+*{
+box-sizing:border-box;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+}
+.wrap{
+width:1200px;
+margin:auto;
+height:auto;
+background: linear-gradient(50deg, #B000EA,black);
+padding:25px;
+border-radius: 10px;
+box-shadow: 1px 5px 10px black
+}
+input[type=text]{
+width:96.5%;
+padding:25px;
+font-size:50px;
+margin: center;
+font-height:bold;
+margin-top:10px;
+border-radius:5px;
+}
+input[type=button]{
+width:70px;
+padding:10px;
+font-size:22px;
+font-height:bold;
+border-radius:5px;
+}
+#del{
+width:12.5%;
+}
+#nbsp{
+width:25.5%;
+}
+</style>
+</head>
+<div class="Wrap">
+<form name ="cal">
+<input type="text" name ="display">
+<br><br>
+<input type="button" value ="!" onclick ="cal.display.value+='!'">
+<input type="button" value ="1" onclick ="cal.display.value+='1'">
+<input type="button" value ="2" onclick ="cal.display.value+='2'">
+<input type="button" value ="3" onclick ="cal.display.value+='3'">
+<input type="button" value ="4" onclick ="cal.display.value+='4'">
+<input type="button" value ="5" onclick ="cal.display.value+='5'">
+<input type="button" value ="6" onclick ="cal.display.value+='6'">
+<input type="button" value ="7" onclick ="cal.display.value+='7'">
+<input type="button" value ="8" onclick ="cal.display.value+='8'">
+<input type="button" value ="9" onclick ="cal.display.value+='9'">
+<input type="button" value ="0" onclick ="cal.display.value+='0'">
+<input type="button" value ="." onclick ="cal.display.value+='.'">
+<input type="button" value ="," onclick ="cal.display.value+=','">
+<input type="button" value ="Backspace" onclick ="cal.display.value=''" id="del">
+<br><br>
+<input type="button" value ="Q" onclick ="cal.display.value+='Q'">
+<input type="button" value ="W" onclick ="cal.display.value+='W'">
+<input type="button" value ="E" onclick ="cal.display.value+='E'">
+<input type="button" value ="R" onclick ="cal.display.value+='R'">
+<input type="button" value ="T" onclick ="cal.display.value+='T'">
+<input type="button" value ="Y" onclick ="cal.display.value+='Y'">
+<input type="button" value ="U" onclick ="cal.display.value+='U'">
+<input type="button" value ="I" onclick ="cal.display.value+='I'">
+<input type="button" value ="O" onclick ="cal.display.value+='O'">
+<input type="button" value ="P" onclick ="cal.display.value+='P'">
+<input type="button" value ="A" onclick ="cal.display.value+='A'">
+<input type="button" value ="S" onclick ="cal.display.value+='S'">
+<input type="button" value ="D" onclick ="cal.display.value+='D'">
+<input type="button" value ="F" onclick ="cal.display.value+='F'">
+<input type="button" value ="G" onclick ="cal.display.value+='G'">
+
+
+<br><br>
+<input type="button" value ="H" onclick ="cal.display.value+='A'">
+<input type="button" value ="J" onclick ="cal.display.value+='S'">
+<input type="button" value ="K" onclick ="cal.display.value+='D'">
+<input type="button" value ="L" onclick ="cal.display.value+='F'">
+<input type="button" value ="Z" onclick ="cal.display.value+='G'">
+<input type="button" value ="X" onclick ="cal.display.value+='H'">
+<input type="button" value ="C" onclick ="cal.display.value+='J'">
+<input type="button" value =" " onclick ="cal.display.value=''" id="nbsp">
+<input type="button" value ="V" onclick ="cal.display.value+='K'">
+<input type="button" value ="B" onclick ="cal.display.value+='L'">
+<input type="button" value ="N" onclick ="cal.display.value+='Z'">
+<input type="button" value ="M" onclick ="cal.display.value+='X'">
+
+
+
+</form>
+<body>
+</body>
+</html>
